@@ -1,0 +1,9 @@
+package com.mycompany.productapp;
+
+// Define calculations
+public interface IProduct {
+    int GetTotalProductsSold(int[][] sales);
+    double GetAverageProductsSold(int[][] sales);
+    String GetMostPopularProduct(String[] products, int[][] sales);
+    
+}
